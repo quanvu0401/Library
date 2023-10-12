@@ -1,0 +1,93 @@
+#new-book-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input {
+    margin: 0px auto 10px;
+    padding: 5px;
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input#read {
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    width: 83%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: #ddd;
+}
+
+.book-card {
+    display: block;
+    border: 1px solid black; 
+    border-radius: 5px;
+    padding: 2px auto;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.lib-display {
+    display: flex;
+}
+
+.remove-btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.read-btn {
+    display: block;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 3px;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
